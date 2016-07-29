@@ -1,0 +1,150 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Iris Docs"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "light green"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "digitalcraftsman"
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Features"
+	url    = "features/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Versioning"
+	url    = "versioning/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Install"
+	url    = "install/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Hi"
+	url    = "hi/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Transport Layer Security"
+	url    = "tls/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Handlers"
+	url    = "handlers/"
+	weight = 60
+
+[[menu.main]]
+	name   = "Middleware"
+	url    = "middleware/"
+	weight = 70
+
+[[menu.main]]
+	name   = "API"
+	url    = "api/"
+	weight = 80
+
+[[menu.main]]
+	name   = "Declaration"
+	url    = "declaration/"
+	weight = 90
+
+[[menu.main]]
+	name   = "Configuration"
+	url    = "configuration/"
+	weight = 100
+
+[[menu.main]]
+	name   = "Party"
+	url    = "party/"
+	weight = 110
+
+[[menu.main]]
+	name   = "Subdomains"
+	url    = "subdomains/"
+	weight = 120
+
+[[menu.main]]
+	name   = "Named Parameters"
+	url    = "named_parameters/"
+	weight = 130
+
+[[menu.main]]
+	name   = "Static Files"
+	url    = "static_files/"
+	weight = 140
+
+[[menu.main]]
+	name   = "Send Files"
+	url    = "send_files/"
+	weight = 150
+
+[[menu.main]]
+	name   = "Send e-mails"
+	url    = "send_emails/"
+	weight = 160
+
+[[menu.main]]
+	name   = "Render"
+	url    = "render/"
+	weight = 170
+
+[[menu.main]]
+	name   = "Gzip"
+	url    = "gzip/"
+	weight = 180
+
+[[menu.main]]
+	name   = "Streaming"
+	url    = "streaming/"
+	weight = 190
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
