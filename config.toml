@@ -1,6 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://iris-go.com/"
 languageCode = "en-us"
-title = "Iris Docs"
+title = "Iris - Documentation"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -9,17 +9,17 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Digitalcraftsman"
-	description = "A material design theme for documentations."
+	author = "kataras"
+	description = "The fastest web framework."
 	copyright = "Released under the MIT license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+	repo_url = "https://github.com/kataras/iris"
 
-	version = "1.0.0"
+	version = "4.0.0-alpha.5"
 	logo = "images/logo.png"
-	favicon = ""
+	favicon = "images/favicon.ico"
 
 	permalink = "#"
 
@@ -40,8 +40,8 @@ googleAnalytics = ""
 
 
 [social]
-	twitter = ""
-	github  = "digitalcraftsman"
+	twitter = "MakisMaropoulos"
+	github  = "kataras"
 
 [[menu.main]]
 	name   = "Introduction"
