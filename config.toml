@@ -143,6 +143,112 @@ googleAnalytics = ""
 	url    = "streaming/"
 	weight = 190
 
+[[menu.main]]
+	name   = "Cookies"
+	url    = "cookies/"
+	weight = 200
+
+[[menu.main]]
+	name   = "Flash Messages"
+	url    = "flash_messages/"
+	weight = 210
+
+[[menu.main]]
+	name   = "Body Binder"
+	url    = "body_binder/"
+	weight = 220
+
+[[menu.main]]
+	name   = "Custom Http Errors"
+	url    = "custom_http_errors/"
+	weight = 230
+
+[[menu.main]]
+	name   = "Context"
+	url    = "context/"
+	weight = 240
+
+[[menu.main]]
+	name   = "Logger"
+	url    = "logger/"
+	weight = 250
+
+[[menu.main]]
+	name   = "HTTP access control"
+	url    = "http_access_control/"
+	weight = 260
+
+[[menu.main]]
+	name   = "Basic Authentication"
+	url    = "basic_authentication/"
+	weight = 270
+
+[[menu.main]]
+	name   = "OAuth, OAuth2"
+	url    = "oauth_oauth2/"
+	weight = 280
+
+[[menu.main]]
+	name   = "JSON Web Tokens"
+	url    = "jwt/"
+	weight = 290
+
+[[menu.main]]
+	name   = "Secure"
+	url    = "secure/"
+	weight = 300
+
+[[menu.main]]
+	name   = "Sessions"
+	url    = "sessions/"
+	weight = 310
+
+[[menu.main]]
+	name   = "Websockets"
+	url    = "websockets/"
+	weight = 320
+
+[[menu.main]]
+	name   = "Graceful"
+	url    = "graceful/"
+	weight = 330
+
+[[menu.main]]
+	name   = "Recovery"
+	url    = "recovery/"
+	weight = 340
+
+[[menu.main]]
+	name   = "Plugins"
+	url    = "plugins/"
+	weight = 350
+
+
+[[menu.main]]
+	name   = "Internationalization and Localization"
+	url    = "internationalization_and_localization/"
+	weight = 360
+
+[[menu.main]]
+	name   = "Easy Typescript"
+	url    = "typescript/"
+	weight = 370
+
+[[menu.main]]
+	name   = "Browser based Editor"
+	url    = "browser_based_editor/"
+	weight = 380
+
+[[menu.main]]
+	name   = "Control panel"
+	url    = "control_panel/"
+	weight = 390
+
+[[menu.main]]
+	name   = "Examples"
+	url    = "examples/"
+	weight = 400
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
