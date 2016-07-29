@@ -75,22 +75,22 @@ func main() {
 
 ```
 
-You can create your **own Logger** to use
+You can create your **own [Logger instance](https://github.com/iris-contrib/logger)** to use
 ```go
 
 import (
-    "github.com/kataras/iris/logger"
+    "github.com/iris-contrib/logger"
      mLogger "github.com/iris-contrib/middleware/logger"
 )
 
-theLogger := logger.New(config.DefaultLogger())
+theLogger := logger.New(logger.DefaultConfig())
 
 iris.Use(mLogger.New(theLogger))
 ```
 
 >Note that: The logger middleware uses the ColorBgOther and ColorFgOther fields.
 
-The configuration struct for the ` iris/logger` is the `iris/config/logger`  
+The configuration struct for the `iris-contrib/logger ` is the `iris-contrib/logger/config.go`  
 
 ```go
 	Logger struct {
@@ -143,10 +143,10 @@ The configuration struct for the ` iris/logger` is the `iris/config/logger`
 ```
 
 
-The ` config.DefaultLogger()`  returns ` config.Logger` : 
+The `logger.DefaultConfig()`  returns `logger.Config` : 
 
 ```go
-	return Logger{
+	return Config{
 		Out:      os.Stdout,
 		Prefix:   "",
 		Disabled: false,
@@ -170,3 +170,4 @@ The ` config.DefaultLogger()`  returns ` config.Logger` :
 
 
 ```
+
