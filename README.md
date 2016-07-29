@@ -6,6 +6,6 @@
 - Cd into repository
 - Run 
 ```
-hugo serve
+hugo server
 ```
 
